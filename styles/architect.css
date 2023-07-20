@@ -123,14 +123,25 @@ nav li a{
   header{
     padding: 20px;
   }
-  nav{
+  nav, .list-container{
     flex-direction: column;
+  }
+  .list-container{
+    padding: 1.25rem;
+    align-items: stretch;
   }
   .banner-title{
     font-size: 2rem;
   }
-  .list-container{
-    flex-direction: column;
+  .list-para, .list-title{
+    width: 20rem;
+  }
+  .list-left{
+    grid-template-columns: 1fr;
+  }
+  .team-img{
+     
+    height: auto;
   }
 }
 
@@ -138,7 +149,7 @@ nav li a{
   header{
     padding: 50px;
   }
-  nav{
+  nav, .list-container{
     flex-direction: column;
   }
 }
