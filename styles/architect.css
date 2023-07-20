@@ -5,6 +5,7 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
   }
+  
 
   /* common styles used */
   .btn{
@@ -73,6 +74,49 @@ nav li a{
   width: 100%;
   margin-top: 3.12rem;
 }
+/* Quick list of Our Features sections related styles */
+.list-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8rem; 
+}
+.list-left{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.7rem;
+  margin-right: 4rem;
+  margin-top: 5rem;
+}
+.team-img{
+  height: 12rem;   
+}
+.list-title{
+  width: 29rem;
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
+}
+.quick-list{
+  color: #727272;
+  font-weight: 500;
+}
+.features{
+  color: #FF900E;
+  font-weight: 600;
+}
+
+.list-para{
+  width: 30rem;
+  font-size: 0.9rem;
+  color:  #727272;
+  margin-bottom: 2rem;
+}
+ 
+
+
+
+
+
 
 /* responsive styles */
 @media screen and (max-width: 576px) {
@@ -85,6 +129,9 @@ nav li a{
   .banner-title{
     font-size: 2rem;
   }
+  .list-container{
+    flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -95,3 +142,9 @@ nav li a{
     flex-direction: column;
   }
 }
+
+/* main */
+/* main{
+  max-width: 1440px;
+  margin: 0 auto;
+} */
