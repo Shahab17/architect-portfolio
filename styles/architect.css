@@ -119,6 +119,7 @@ nav li a{
   align-items: center;
   margin-top: 8rem;
   margin-bottom: 8rem;
+  gap: 2rem;
 }
 .border{
   border-left: 4px solid #FF900E;
@@ -235,7 +236,7 @@ nav li a{
   header{
     padding: 20px;
   }
-  nav, .list-container, .fact-img-container, .sponsor-img{
+  nav, .list-container, .fact-img-container, .sponsor-img, .enjoy-container{
     flex-direction: column;
   }
   .list-container{
@@ -265,6 +266,20 @@ nav li a{
   .facts, .para{
     width: auto;
   }
+  .sponsor-img{
+    gap: 2.2rem;
+  }
+  .enjoy-content{
+    padding: 20px;
+  }
+  .enjoy-img img{
+    width: 70%;
+    margin-left: 100px;
+      
+  }
+  .ten-years{
+    margin-left: 1.5rem;
+  }
 } 
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -280,6 +295,9 @@ nav li a{
   }
   .para, .title{
     margin-left: 1rem;
+  }
+  .enjoy-container{
+    flex-direction: column-reverse;
   }
 }
 
