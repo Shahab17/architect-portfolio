@@ -112,6 +112,48 @@ nav li a{
   color: #FF900E;
   font-weight: 600;
 }
+/* Features you will love & enjoy */
+.enjoy-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.border{
+  border-left: 4px solid #FF900E;
+  padding-left: 1rem;
+}
+.details-container{
+  margin-left: 20px;
+}
+.enjoy-img img{
+  width: 25rem;
+  
+}
+.ten-years{
+  width: 8rem;
+  border-radius: 8px;
+  background:rgba(146, 104, 26, 0.836);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 15px 15px 25px gray;
+  margin-top: -5rem;
+  margin-left: -3rem;
+  position: sticky;
+}
+.ten-years h3{
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+}
+.ten-years p{
+  color: white;
+  margin-top: -25px;
+  font-size: 12px;
+}
+
+ 
 
 
 /* main{
